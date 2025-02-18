@@ -1,4 +1,9 @@
-# genomics
+#  A repository of notes and codes useful for bioinformatics
+## Helpful notes and tutorials
+- Introduction to bash and cheat sheets: https://github.com/NBISweden/GAAS/blob/master/annotation/knowledge/Bash_lecture.pdf
+
+
+
 ## Software
 Supercrunch
 - https://github.com/dportik/SuperCRUNCH
