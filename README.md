@@ -2,9 +2,12 @@
 ## Helpful notes and tutorials
 - Introduction to bash and cheat sheets: https://github.com/NBISweden/GAAS/blob/master/annotation/knowledge/Bash_lecture.pdf
 
-
-
 ## Software
+### Programs for popgen analyses with genotype likelihoods
+- Ngstools (https://github.com/mfumagalli/ngsTools#ngscovar)
+
+
+### Other programs
 Supercrunch
 - https://github.com/dportik/SuperCRUNCH
 - For phylogenetic datasets
