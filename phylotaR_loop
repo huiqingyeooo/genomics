@@ -5,6 +5,11 @@
 #tutorial:https://docs.ropensci.org/phylotaR/articles/phylotaR.html
 #https://docs.ropensci.org/phylotaR/reference/drop_by_rank.html
 
+# Note: I forked the phylotaR repository and made the following changes to the lines of code in R/stage4.R.
+# This is to get phylotaR to form clusters even when there are less than 3 sequences present and report representative barcodes for all clusters.
+#info(lvl = 1, ps = ps, "Dropping all clusters of < 1 sqs ...") #changed <3 sqs to <1 sqs
+#all_clstrs <- all_clstrs[nsqs >= 1] # changed >=3 to >=1
+
 setwd()
 rm(list = ls())
 library(phylotaR); library(ggplot2)
