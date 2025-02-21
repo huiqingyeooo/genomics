@@ -11,7 +11,7 @@ library(phylotaR); library(ggplot2)
 
 # Set paths
 mainDir<-"/path/to/phylotar/work/folder"
-ncbi<-"/path/to/ncbi/program"
+ncbi<-"/path/to/ncbi/blast/program"
 cluster.plots<-"/output/directory/for/cluster/plots"
 fasta<-"/output/directory/for/fasta/sequences"
 dat<-read.csv("txid_subset.csv"); txid.list<-dat$id # A list of genbank taxids corresponding to the taxa of interest
