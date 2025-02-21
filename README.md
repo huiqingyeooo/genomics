@@ -1,4 +1,4 @@
-#  A repository of notes and codes useful for bioinformatics
+#  A repository of useful bioinformatics notes and codes
 ## Helpful notes and tutorials
 - Introduction to bash and cheat sheets: https://github.com/NBISweden/GAAS/blob/master/annotation/knowledge/Bash_lecture.pdf
 - Tutorials for analysis of low coverage genome data: https://github.com/nt246/lcwgs-guide-tutorial/tree/main
