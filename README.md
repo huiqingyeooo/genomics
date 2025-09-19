@@ -4,20 +4,7 @@
 - Tutorials for analysis of low coverage genome data: https://github.com/nt246/lcwgs-guide-tutorial/tree/main
   - data processing, genotype snp calling, linkage disequilibrium, population structure, popgen summary stats
 
-## List of bioinformatic software/programs
-### Programs for popgen analyses with genotype likelihoods
-- Ngstools (https://github.com/mfumagalli/ngsTools#ngscovar)
-
-### Other programs
-- subsamplebam (https://github.com/VDBWRAIR/subsamplebam)
-  - Subsamples bam to obtain more even read depth across the genome
-
-- twisst2 (https://github.com/simonhmartin/twisst2)
-  - Topology weighting. Summarises genealogies in terms of the relative abundance of different sub-tree topologies
-
-- variantBam (https://github.com/walaj/VariantBam)
-  - extract/count specific reads that intersect some region around variant locations
-
-- Supercrunch (https://github.com/dportik/SuperCRUNCH)
-  - For phylogenetic datasets
-  - Construct supermatrices from genbank
+## Bits and pieces
+Here is where I keep bit and pieces of codes and programs that I've tried as preliminary analysis or side projects.
+#### Short read genome assembly
+Side project comparing various short read assemblers (DiscovarDeNovo, megahit, GATB minia, and spades) using both whole genome resequencing reads and anchor hybrid enrichment data. I also tested if deduplication of reads improves the assemblies. Quality of the assemblies were assessed by looking at stats such as L50, N50 (stats.sh from bbmap) and completeness of orthologs recovered (BUSCO, compleasm).
