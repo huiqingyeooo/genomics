@@ -19,3 +19,6 @@ Programs: [aTRAM](https://github.com/juliema/aTRAM) and [GeneMiner2](https://git
 
 2. Extract sequences from regions of interest<br>
 Align reads to reference genome, call variants and create consensus fasta files (allowing for IUPAC ambiguity codes). Identify regions containing genes of interest from gff files, and use coordinates to extract the relevant regions from the fasta files.
+
+#### [Align scaffolds to a reference genome and assess synteny](https://github.com/huiqingyeooo/genomics/assembly_scaffolding)
+Using RagTag scaffold to align scaffolds to a specified reference genome, and assessing synteny with syri. Useful when the organism that you are working on does not have a chromosomal-level genome assembly.
