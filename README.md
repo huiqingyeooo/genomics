@@ -9,3 +9,5 @@ Here is where I keep bit and pieces of codes and programs that I've tried as pre
 #### [Short read genome assembly](https://github.com/huiqingyeooo/genomics/genome_assembly)
 Side project comparing various short read assemblers (DiscovarDeNovo, megahit, GATB minia, and spades) using both whole genome resequencing reads and anchor hybrid enrichment data. I also tested if deduplication of reads improves the assemblies. Quality of the assemblies were assessed by looking at stats such as L50, N50 (stats.sh from bbmap) and completeness of orthologs recovered (BUSCO, compleasm).
 
+#### [Assign taxonomies and filter reads](https://github.com/huiqingyeooo/genomics/BASTA)
+Used BASTA to assign taxonomies to sequences or groups of sequences based on the Last Common Ancestor (LCA) of a number of best hits. Reads can then be filtered by BASTA annotations using filter_basta_fasta.py.
