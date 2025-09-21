@@ -13,4 +13,5 @@ Side project comparing various short read assemblers (DiscovarDeNovo, megahit, G
 Used BASTA to assign taxonomies to sequences or groups of sequences based on the Last Common Ancestor (LCA) of a number of best hits. Reads can then be filtered by BASTA annotations using filter_basta_fasta.py.
 
 #### [Extract genes from genomic reads](https://github.com/huiqingyeooo/genomics/extract_genes)
-
+Methods for assembling and extracting genes/loci from NGS data (fq.gz) using a reference database, without the need for genome assembly or alignment. Useful for looking at genes of interest (e.g., obtaining barcodes or constructing multi-loci phylogenies)
+[aTRAM](https://github.com/juliema/aTRAM) and [GeneMiner2](https://github.com/sculab/GeneMiner2/blob/master/manual/EN_US/command_line.md)
