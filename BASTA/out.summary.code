@@ -1,0 +1,7 @@
+for file in $(ls /work/soghigian_lab/huiqing.yeo/aedes_coi/28s/*.out)
+do
+f=$(basename $file .out)
+taxname="$( grep "starting blast for" ${f}.out | awk '{ print $4 }' )"
+end="$( tail -n 1 ${f}.out)"
+echo $f $taxname $end >> out.summary
+done
