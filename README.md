@@ -11,3 +11,6 @@ Side project comparing various short read assemblers (DiscovarDeNovo, megahit, G
 
 #### [Assign taxonomies and filter reads](https://github.com/huiqingyeooo/genomics/BASTA)
 Used BASTA to assign taxonomies to sequences or groups of sequences based on the Last Common Ancestor (LCA) of a number of best hits. Reads can then be filtered by BASTA annotations using filter_basta_fasta.py.
+
+#### [Extract genes from genomic reads](https://github.com/huiqingyeooo/genomics/extract_genes)
+
