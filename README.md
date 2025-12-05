@@ -23,5 +23,5 @@ Align reads to reference genome, call variants and create consensus fasta files 
 #### [Align scaffolds to a reference genome and assess synteny](https://github.com/huiqingyeooo/genomics/assembly_scaffolding)
 Using RagTag scaffold to align scaffolds to a specified reference genome, and assessing synteny with syri. Useful when the organism that you are working on does not have a chromosomal-level genome assembly.
 
-#### [Compare allele concordance by site between two vcf files](https://github.com/huiqingyeooo/genomics/allele_concordance)
+#### [Compare allele concordance by site between two vcf files](https://github.com/huiqingyeooo/genomics/tree/main/allele_concordance))
 Compares allele concordance between two vcf files, has the flexibility to score allele matches even if the genotypes do not fully match (e.g. 0/1 from vcf1 and 0/0 from vcf2 will be scored as a partial match. The codes also extracts read depth and scores heterozygosity by site.
