@@ -103,7 +103,3 @@ head -n 1 genotype_comparison_filtered.csv > header.csv
 sed '1d' genotype_comparison_filtered.csv | shuf -n 10000 > random_subset_no_header.csv
 cat header.csv random_subset_no_header.csv > genotype_comparison_filtered_subset.csv
 rm random_subset_no_header.csv header.csv
-
-local=/Users/huiqing/Documents/Cx_pipiens/nanopore
-arc=/scratch/37181873/8_site_concordance/genotype_comparison_filtered_subset.csv
-scp huiqing.yeo@arc.ucalgary.ca:${arc} ${local}
