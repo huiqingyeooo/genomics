@@ -25,3 +25,7 @@ Using RagTag scaffold to align scaffolds to a specified reference genome, and as
 
 #### [Compare allele concordance by site between two vcf files](https://github.com/huiqingyeooo/genomics/tree/main/allele_concordance)
 Compares allele concordance between two vcf files, has the flexibility to score allele matches even if the genotypes do not fully match (e.g. 0/1 from vcf1 and 0/0 from vcf2 will be scored as a partial match. The codes also extracts read depth and scores heterozygosity by site.
+
+#### [Sequence identification and anaylse abundance in nanopore metabarcoding data](https://github.com/huiqingyeooo/genomics/tree/main/emu)
+Adapts emu to obtain species-level taxonomic abundance for COI metabarcoding data. Emu is optimised for nanopore sequences and has existing 16S reference databases for microbial communities. The scripts here includes downloading of COI sequences by taxids from genbank, formatting the reference database and executing emu.
+
