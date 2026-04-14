@@ -3,6 +3,7 @@
 - Introduction to bash and cheat sheets: https://github.com/NBISweden/GAAS/blob/master/annotation/knowledge/Bash_lecture.pdf
 - Tutorials for analysis of low coverage genome data: https://github.com/nt246/lcwgs-guide-tutorial/tree/main
   - data processing, genotype snp calling, linkage disequilibrium, population structure, popgen summary stats
+- Switching R versions on Mac: https://www.monicathieu.com/posts/2024-05-21-multiple-r-versions.html
 
 ## Bioinformatics codes
 Here is where I keep bit and pieces of codes and programs that I've tried as preliminary analysis or side projects.
