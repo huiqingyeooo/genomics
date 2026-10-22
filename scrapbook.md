@@ -42,7 +42,11 @@ module load R/4.3.1
 Rscript ${pcangsdOutput}/${angsdBatchName}/pcangsd_plot.R
 
 # compress / decompress files
-Use pigz for multi-threading (https://github.com/madler/pigz/blob/master/pigz.pdf)
+# use pigz for multi-threading (https://github.com/madler/pigz/blob/master/pigz.pdf)
+
+pigz file #compresses file
+pigz -dc file.gz > file #decompresses file
+
 ```
 
 #### Job script
