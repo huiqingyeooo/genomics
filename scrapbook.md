@@ -40,6 +40,9 @@ squeue --format="%.18i %.9P %.30j %.8u %.8T %.10M %.9l %.6D %R" --me
 # load R
 module load R/4.3.1
 Rscript ${pcangsdOutput}/${angsdBatchName}/pcangsd_plot.R
+
+# compress / decompress files
+Use pigz for multi-threading (https://github.com/madler/pigz/blob/master/pigz.pdf)
 ```
 
 #### Job script
