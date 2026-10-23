@@ -47,6 +47,8 @@ Rscript ${pcangsdOutput}/${angsdBatchName}/pcangsd_plot.R
 pigz file #compresses file
 pigz -dc file.gz > file #decompresses file
 
+# reverse-complement sequence with ambiguity codes
+echo $seq | tr 'ACGTacgtRkYmSwHbVdDn' 'TGCAtgcyRyKmWsBdVhDn' | rev
 ```
 
 #### Job script
