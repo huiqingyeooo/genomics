@@ -292,6 +292,13 @@ bcftools filter -i 'DP>=5' b8.vcf.gz -Oz -o b8_minDepth5.vcf.gz
 bcftools filter -i 'DP>=10' b8.vcf.gz -Oz -o b8_minDepth10.vcf.gz
 ```
 
+## NCBI E-utilies
+```
+# Find all available databases
+ einfo -dbs
+
+
+
 ## Databases
 #### Kraken database
 /work/vetmed_shared_dbs/kraken_gtdb89_genbank
